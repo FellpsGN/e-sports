@@ -1,0 +1,7 @@
+Technologies used:
+    * React Native
+    * Expo
+    * React Native Safe Area Context
+    * LinearGradient
+    * React Navigation
+    * Typescript
