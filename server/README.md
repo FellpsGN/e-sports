@@ -1,7 +1,6 @@
 Technologies used:
 
 - Express
-
-* Typescript
-
+- Typescript
 - Prisma.io
+- Cors
