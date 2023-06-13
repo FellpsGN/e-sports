@@ -1,10 +1,15 @@
 import { Router, Request, Response } from "express";
 
 export function Routes(app: Router) {
-  app.get("/", (request: Request, response: Response) => {
-    response.json([
-      { id: 1, name: "A" },
-      { id: 2, name: "B" },
-    ]);
+  app.get("/games", (request: Request, response: Response) => {
+    return response.json([]);
+  });
+
+  app.post("/ads", (request: Request, response: Response) => {
+    return response.status(201).json([]);
+  });
+
+  app.get("/games/:id/ads", (request: Request, response: Response) => {
+    return response.json([]);
   });
 }
